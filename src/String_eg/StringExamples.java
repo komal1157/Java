@@ -59,6 +59,14 @@ public class StringExamples {
      
      System.out.println("The type of 'numberAsString' is: " + ((Object) asnumber).getClass().getSimpleName());
      
+     //split method 
+     String strsplit="1,2,3,4";
+     String [] cart1= strsplit.split(",");
+     System.out.println("cart1   "+cart1);
+     
+     //join 
+    String  strjoin = String.join(" * ",cart1);
+    System.out.println(" join method   "+strjoin);
      
      
      
