@@ -53,11 +53,11 @@ public class StringExamples {
      int n=44;
      
      
-     String asnumber=Integer.toString(n);
+//     String asnumber=Integer.toString(n);
      
-     System.out.println("conver to string "+asnumber);
+//     System.out.println("conver to string "+asnumber);
      
-     System.out.println("The type of 'numberAsString' is: " + ((Object) asnumber).getClass().getSimpleName());
+//     System.out.println("The type of 'numberAsString' is: " + ((Object) asnumber).getClass().getSimpleName());
      
      //split method 
      String strsplit="1,2,3,4";
