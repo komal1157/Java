@@ -32,10 +32,7 @@ public class FileWriting {
 		}catch(IOException obj){
 		System.out.println("Error :");	
 		obj.printStackTrace();
-		}	
-
-		
-		
+		}		
 	}
 
 }
