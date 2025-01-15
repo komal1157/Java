@@ -30,7 +30,9 @@ public class FileWriting {
 			bw.write(var);
 			bw.close();
 		}catch(IOException obj){
-		System.out.println("Error :");	
+			
+		System.out.println("Error :");
+		
 		obj.printStackTrace();
 		}		
 	}
